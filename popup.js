@@ -11,7 +11,7 @@ function getResults() {
         tabs[0].id,
         { action: 'checkForWord' },
         function (response) {
-          showResults(response.results);
+          showResults(response);
         }
       );
     }
